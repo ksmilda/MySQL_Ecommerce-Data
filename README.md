@@ -20,7 +20,12 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
    - Using this query on MySQL, resulting there are 2000 order based on counting each `order_id` ranging from 2020-09-18       untill 2025-09-20.
 
 
-    ![screenshot on mysql for number of orders](image/ss_number_of_orders.png)
+     ![screenshot on mysql for number of orders](image/ss_number_of_orders.png)
+
+
+   - The number of orders based on each country.
+
+     ![screenshot on mysql for number of orders each country](image/ss_orders_country.png)
 
 
 
@@ -31,31 +36,57 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
 
 
 
-   - The total revenue based on country
+   - The total revenue based on country.
 
      ![screenshot on mysql for revenue by country](image/ss_revenue_country.png)
 
 
-   - Revenue growth per year
+   - Revenue growth per year.
 
-     ![screenshot on mysql for revenue by country](image/ss_growth_revenue.png)
+     ![screenshot on mysql for revenue growth](image/ss_growth_revenue.png)
 
 
 
-   - Top 5 product based on revenue
+   - Top 5 product based on revenue.
 
-     ![screenshot on mysql for revenue by country](image/ss_top_revenue_product.png)
+     ![screenshot on mysql for top 5 revenue product](image/ss_top_revenue_product.png)
 
    
-   
-4. Average order value (AOV)
-5. Customer lifetime value (CLV)
-6. Numbers of active customers
-7. Churn rate (and every country's)
+3. Average order value (AOV)
+   - The Average order value (AOV) are 1.025,85 dolar?.
+
+     ![screenshot on mysql for aov](image/ss_aov.png)
+
+
+4. Number of customers
+   - The number of customers based on subbscription status. 
+
+     ![screenshot on mysql for total customers](image/ss_number_cust.png)
+
+   - Customers with more than 1 cancellation orders,
+
+     ![screenshot on mysql for cust with cancellation](image/ss_cust_cancel.png)
+
+     and the total of it.
+     ![screenshot on mysql for number of cust with cancellation](image/ss_total_cust_cancel.png)
+ 
+
+      
+5. Churn rate (and every country's)
+   - The churn rate. 
+
+     ![screenshot on mysql for churn rate](image/ss_churn_rate.png)
+
+   - The churn rate for each country.
+
+     ![screenshot on mysql for churn rate each country](image/ss_churn_rate_country.png)
+
+
+6. Product and Category
 8. Average age of customers
-9. Total orders (per country)
 
-11. Top 5 product based on revenue
+
+
 12. Average purchase frequency by category
 13. Top 5 customers with the most spending and their country
 14. 
