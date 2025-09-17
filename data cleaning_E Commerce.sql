@@ -42,7 +42,7 @@ MODIFY gender ENUM('Female','Male','Other') NOT NULL;
 ### order id as pk
 ALTER TABLE ecomm.dataset ADD PRIMARY KEY (order_id);
 
-## Check for duplicate
+## Check for duplicates
 SELECT order_id, COUNT(*) FROM ecomm.dataset 
 GROUP BY order_id HAVING COUNT(*) > 1;
-
+ # there are no duplicates
