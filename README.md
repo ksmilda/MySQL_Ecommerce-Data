@@ -16,6 +16,7 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column `order_id` as the primary key. 
 
 ## Data Exploration
+The data exploration
 1. Numbers of orders
    - Using this query on MySQL, resulting there are 2000 order based on counting each `order_id` ranging from 2020-09-18       untill 2025-09-20.
 
@@ -63,13 +64,19 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
 
      ![screenshot on mysql for total customers](image/ss_number_cust.png)
 
+
    - Customers with more than 1 cancellation orders,
 
      ![screenshot on mysql for cust with cancellation](image/ss_cust_cancel.png)
 
+
      and the total of it.
      ![screenshot on mysql for number of cust with cancellation](image/ss_total_cust_cancel.png)
  
+   - Average age of customers.
+     
+     ![screenshot on mysql for avg age cust](image/ss_avg_age.png)
+
 
       
 5. Churn rate (and every country's)
@@ -77,16 +84,31 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
 
      ![screenshot on mysql for churn rate](image/ss_churn_rate.png)
 
+
    - The churn rate for each country.
 
      ![screenshot on mysql for churn rate each country](image/ss_churn_rate_country.png)
 
 
 6. Product and Category
-8. Average age of customers
+   - Product with highest purchase frequency.
+
+     ![screenshot on mysql for product](image/ss_product_freq.png)
 
 
+   - Gender distribution by purchase category.
 
-12. Average purchase frequency by category
-13. Top 5 customers with the most spending and their country
-14. 
+     ![screenshot on mysql gender distribution by category](image/ss_gender_dist_purchase.png)
+
+
+   - Average purchase frequency by category.
+
+     ![screenshot on mysql average purchase](image/ss_avg_purchase_freq.png)
+
+
+   - Top 5 customers with highest spending and their country.
+
+     ![screenshot on mysql customer highest spending](image/ss_top5_cust.png)
+
+
+## Conclusion
