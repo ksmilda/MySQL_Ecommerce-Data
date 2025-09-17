@@ -7,7 +7,7 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 
 
 ## Data Cleaning
-Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](). The process include formatting the data type (normalizing) and choosing the column order_id as the primary key. 
+Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column "order_id" as the primary key. 
 
 ## Data Exploration
 1. Numbers of order
