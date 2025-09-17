@@ -16,16 +16,46 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column `order_id` as the primary key. 
 
 ## Data Exploration
-1. Numbers of order
+1. Numbers of orders
+   - Using this query on MySQL, resulting there are 2000 order based on counting each `order_id` ranging from 2020-09-18       untill 2025-09-20.
+
+
+    ![screenshot on mysql for number of orders](image/ss_number_of_orders.png)
+
+
+
 2. Total revenue
-3. Average order value (AOV)
-4. Customer lifetime value (CLV)
-5. Numbers of active customers
-6. Churn rate (and every country's)
-7. Average age of customers
-8. Total orders (per country)
-9. Revenue per country
-10. Top 5 product based on revenue
-11. Average purchase frequency by category
-12. Top 5 customers with the most spending and their country
-13. 
+   - The total revenue are dolar?2.051.690,65.
+
+     ![screenshot on mysql for total revenue](image/ss_total_revenue.png)
+
+
+
+   - The total revenue based on country
+
+     ![screenshot on mysql for revenue by country](image/ss_revenue_country.png)
+
+
+   - Revenue growth per year
+
+     ![screenshot on mysql for revenue by country](image/ss_growth_revenue.png)
+
+
+
+   - Top 5 product based on revenue
+
+     ![screenshot on mysql for revenue by country](image/ss_top_revenue_product.pngg)
+
+   
+   
+4. Average order value (AOV)
+5. Customer lifetime value (CLV)
+6. Numbers of active customers
+7. Churn rate (and every country's)
+8. Average age of customers
+9. Total orders (per country)
+
+11. Top 5 product based on revenue
+12. Average purchase frequency by category
+13. Top 5 customers with the most spending and their country
+14. 
