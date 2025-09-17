@@ -1,13 +1,14 @@
 # MySQL_Ecommerce-Data
-This is Mildaks's portfolio: Data cleaning and data exploration using MySQL.
+This is ksmilda's portfolio: Data cleaning and data exploration using MySQL.
 
 ## Project Background 
 With this project, I'm analyzes an open dataset obtained from Kaggle (link), which contains simulated e-commerce transactions. The dataset includes customer information, order details, product categories, sales values, and other related attributes. Although the dataset does not represent a specific company, it serves as a realistic sample to demonstrate data exploration, KPI tracking, and dashboard building.
-The purpose of this analysis is to showcase data cleaning, SQL queries, and visualization skills for business intelligence use cases such as sales monitoring, customer segmentation, and churn analysis. This whole SQL project was executed on the MySQL Server, below is a snapshot of a few of the columns and entries in the [dataset](E Commerce Customer Insights and Churn Dataset.xlsx).
+The purpose of this analysis is to showcase data cleaning, SQL queries, and visualization skills for business intelligence use cases such as sales monitoring, customer segmentation, and churn analysis. This whole SQL project was executed on the MySQL Server, below is a snapshot of a few of the columns and entries in the [dataset](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/312f3babf0d8f275bde012918adf4d978993c4c3/E%20Commerce%20Customer%20Insights%20and%20Churn%20Dataset.xlsx).
 
 
 ## Data Cleaning
-1. The top balblabla
+Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](). The process include formatting the data type (normalizing) and choosing the column order_id as the primary key. 
+
 ## Data Exploration
 1. Numbers of order
 2. Total revenue
