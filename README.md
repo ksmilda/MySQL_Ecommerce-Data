@@ -7,13 +7,13 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 
 
 
-
+![snapshot of the dataset](/assets/images/Screenshot 2025-09-17 132053.png)
 
 <img width="1582" height="565" alt="image" src="https://github.com/user-attachments/assets/e261ed66-deec-47ec-b00d-4739ebd06faa" />
 
 
 ## Data Cleaning
-Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column "order_id" as the primary key. 
+Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column `order_id` as the primary key. 
 
 ## Data Exploration
 1. Numbers of order
