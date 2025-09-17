@@ -16,7 +16,7 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 Before the exploration begins, the dataset is checked and cleaned to ensure there are no missing values nor duplicate rows, as documented in [this file](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/56a4d3774fa5f1b81d371230d57f4ffe25ab50cf/data%20cleaning_E%20Commerce.sql). The process include formatting the data type (normalizing) and setting the column `order_id` as the primary key. 
 
 ## Data Exploration
-The data exploration
+The data exploration query can be accessed in [this link](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/a7ddfdad6be8f39a38bb14e322e5036a58e287aa/data%20exploration_E%20Commerce.sql).
 1. Numbers of orders
    - Using this query on MySQL, resulting there are 2000 order based on counting each `order_id` ranging from 2020-09-18       untill 2025-09-20.
 
@@ -75,7 +75,7 @@ The data exploration
  
    - Average age of customers.
      
-     ![screenshot on mysql for avg age cust](image/ss_avg_age.png)
+     ![screenshot on mysql for avg age cust](image/ss_avg_age_cust.png)
 
 
       
