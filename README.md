@@ -44,7 +44,7 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
 
    - Top 5 product based on revenue
 
-     ![screenshot on mysql for revenue by country](image/ss_top_revenue_product.pngg)
+     ![screenshot on mysql for revenue by country](image/ss_top_revenue_product.png)
 
    
    
