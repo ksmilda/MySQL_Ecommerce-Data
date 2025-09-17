@@ -7,10 +7,9 @@ The purpose of this analysis is to showcase data cleaning, SQL queries, and visu
 
 
 
-![snapshot of the dataset](/assets/image/Screenshot 2025-09-17 132053.png)
+![snapshot of the dataset](image/ss_dataset.png)
 
 
-<img width="1582" height="565" alt="image" src="https://github.com/user-attachments/assets/e261ed66-deec-47ec-b00d-4739ebd06faa" />
 
 
 ## Data Cleaning
