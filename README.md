@@ -2,7 +2,7 @@
 This is ksmilda's portfolio: Data cleaning and data exploration using MySQL.
 
 ## Project Background 
-With this project, I'm analyzes an open dataset obtained from Kaggle [link](https://www.kaggle.com/datasets/nabihazahid/e-commerce-customer-insights-and-churn-dataset/data), which contains simulated e-commerce transactions. The dataset includes customer information, order details, product categories, sales values, and other related attributes. Although the dataset does not represent a specific company, it serves as a realistic sample to demonstrate data exploration, KPI tracking, and dashboard building.
+With this project, I'm analyzes an open dataset obtained from [Kaggle](https://www.kaggle.com/datasets/nabihazahid/e-commerce-customer-insights-and-churn-dataset/data), which contains simulated e-commerce transactions. The dataset includes customer information, order details, product categories, sales values, and other related attributes. Although the dataset does not represent a specific company, it serves as a realistic sample to demonstrate data exploration, KPI tracking, and dashboard building.
 
 The purpose of this analysis is to showcase data cleaning, SQL queries, and visualization skills for business intelligence use cases such as sales monitoring, customer segmentation, and churn analysis. This whole SQL project was executed on the MySQL Server, below is a snapshot of a few of the columns and entries in the [dataset](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/312f3babf0d8f275bde012918adf4d978993c4c3/E%20Commerce%20Customer%20Insights%20and%20Churn%20Dataset.xlsx).  
 
@@ -69,33 +69,38 @@ This exploration provides the first set of insights into customer behavior and b
 
 
 5. Customers demographic
-   - The number of customers based on subscription status. 
+   - The number of customers based on subscription status showed most of the customers were "active".
 
      ![screenshot on mysql for total customers](image/ss_number_cust.png)
 
 
-   - Customers with more than 1 cancellation orders,
+   - The number of customers with more than 1 cancellation orders,
 
-     ![screenshot on mysql for cust with cancellation](image/ss_cust_cancel.png)
-
-
-     and the total of it.
      ![screenshot on mysql for number of cust with cancellation](image/ss_total_cust_cancel.png)
+
+
+     Pict attached below showed several high-value customers doing repeated cancellations (3–5 times each) while still generating close to 2,000 in revenue. This suggests that cancellations do not necessarily equate to lost customers — instead, they highlight friction points in the purchase journey for otherwise loyal and profitable users.
+     
+     <img width="1052" height="497" alt="image" src="https://github.com/user-attachments/assets/19208b24-0421-4ba6-b175-6a8cfe19a37b" />
+
  
-   - Average age of customers.
+   - The average age of customers were 44 years old.
      
      ![screenshot on mysql for avg age cust](image/ss_avg_age_cust.png)
 
 
-   - Gender distribution.
+   - The pict below showed that the gender distribution of customers were 50% female, 45% male, and the rest were other.
      
-     ![screenshot on mysql for avg age cust](image/ss_avg_age_cust.png)
+     <img width="1218" height="354" alt="image" src="https://github.com/user-attachments/assets/0bec1ef4-ba24-4142-973f-443a9d8e72db" />
+
 
 
 6. Churn rate (and every country's)
-   - The churn rate. 
+   - The churn rate incredibly declined from 37% in 2020 to 22% in 2022 indicating some improvement in customer experience. However, the churn rate start to increased in 2023, suggesting that retention efforts weakened as the customer base grew. 
 
-     ![screenshot on mysql for churn rate](image/ss_churn_rate.png)
+
+     <img width="1178" height="453" alt="image" src="https://github.com/user-attachments/assets/9fa7b4fc-841d-4b76-a974-6f1fce17591d" />
+
 
 
    - The churn rate for each country.
@@ -109,24 +114,26 @@ This exploration provides the first set of insights into customer behavior and b
      ![screenshot on mysql for top 5 revenue product](image/ss_top_revenue_product.png)
 
    
-   - Product with highest purchase frequency.
+   - Top 5 most purchased product as shown below.
 
-     ![screenshot on mysql for product](image/ss_product_freq.png)
+     <img width="952" height="368" alt="image" src="https://github.com/user-attachments/assets/0144f1a1-24c7-42bd-9d81-9a92be9e699f" />
 
 
-   - Gender distribution by purchase category.
+
+   - The gender distribution by purchase category showed the most purchased were "electronics" and "clothing" by male, and "home" and "clothing" by female. The "clothing" category being one of the most purchase category were align with product "shirt" as in top 5 most purchased product.
 
      ![screenshot on mysql gender distribution by category](image/ss_gender_dist_purchase.png)
 
 
-   - Average purchase frequency by category.
+   - The most average purchase frequency by category were "clothing" and "sports" as both of them leading in top 10 most purchase category.
 
-     ![screenshot on mysql average purchase](image/ss_avg_purchase_freq.png)
+     <img width="926" height="480" alt="image" src="https://github.com/user-attachments/assets/e65534e5-fdfe-481b-ae08-87d22b53d13a" />
 
 
-   - Top 5 customers with highest spending and their country.
+
+   - Top 5 customers with highest spending and their country were CUST1323, a 59 year old from Pakistan with total spending nearly $2000, and it's accordance with Pakistan's high AOV.
 
      ![screenshot on mysql customer highest spending](image/ss_top5_cust.png)
 
 
-## Conclusion
+
