@@ -16,11 +16,8 @@ GROUP BY country ORDER BY total_orders DESC;
 SELECT round(sum(unit_price * quantity),2) AS revenue FROM ecomm.dataset;
 ## Revenue per country
 SELECT country, SUM(unit_price * quantity) AS total_revenue,
-    ROUND(SUM(unit_price * quantity) * 100.0 /
-        (SELECT SUM(unit_price * quantity) FROM ecomm.dataset), 2) AS revenue_percentage
-FROM ecomm.dataset
-GROUP BY country
-ORDER BY total_revenue DESC;
+ROUND(SUM(unit_price * quantity) * 100.0 /(SELECT SUM(unit_price * quantity) FROM ecomm.dataset), 2) AS revenue_percentage
+FROM ecomm.dataset GROUP BY country ORDER BY total_revenue DESC;
 
 ## Revenue growth per year (by order date)
 SELECT YEAR(order_date) AS order_year, SUM(unit_price * quantity) AS total_revenue
@@ -36,7 +33,7 @@ WHERE subscription_status IN ('active','paused','cancelled') GROUP BY subscripti
 ## Customer with more than 1 cancellation
 SELECT COUNT(cancellations_count) FROM ecomm.dataset WHERE cancellations_count > 1;
 SELECT customer_id, MAX(COALESCE(cancellations_count,0)) AS total_cancellations,
-  SUM(unit_price * quantity) AS total_revenue FROM ecomm.dataset
+SUM(unit_price * quantity) AS total_revenue FROM ecomm.dataset
 GROUP BY customer_id HAVING total_cancellations > 1 ORDER BY total_revenue DESC;
 ## Average age of customers
 SELECT ROUND(AVG(age),1) AS avg_customer_age FROM ecomm.dataset;
