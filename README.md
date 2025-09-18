@@ -20,7 +20,7 @@ Before the exploration begins, the dataset is checked and cleaned to ensure ther
 ## Data Exploration
 With a clean dataset in place, I began the exploratory data analysis (EDA) to better understand the underlying patterns and behaviors within the data. The goal of this stage is not only to summarize key metrics such as revenue, profit, and customer distribution, but also to uncover trends across different segments (e.g., gender, country, and subscription status).
 
-This exploration provides the first set of insights into customer behavior and business performance. The data exploration query can be accessed in [this link](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/a7ddfdad6be8f39a38bb14e322e5036a58e287aa/data%20exploration_E%20Commerce.sql).
+This exploration provides the first set of insights into customer behavior and business performance. The data exploration query can be accessed in [this link](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/3807a4cedd5f81a7c185903693b267eb0ae384b5/data%20exploration_E%20Commerce.sql).
 
 
 1. Numbers of orders
