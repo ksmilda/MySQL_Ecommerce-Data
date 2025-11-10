@@ -70,7 +70,8 @@ This exploration provides the first set of insights into customer behavior and b
    - The AOV for every country means on average each transaction contributes as number below in revenue. Countries like India and Pakistan show higher AOVs, while the UK has lower AOV.
 
 
-     <img width="1505" height="405" alt="image" src="https://github.com/user-attachments/assets/8eb77e23-8bf8-44cc-a58c-257d78bad04e" />
+     <img width="959" height="370" alt="image" src="https://github.com/user-attachments/assets/a68af0b5-e95c-4e2b-8828-598fdad0340c" />
+
 
 
 4. Customers demographic
