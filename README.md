@@ -122,7 +122,8 @@ This exploration provides the first set of insights into customer behavior and b
 
    - The gender distribution by purchase category showed the most purchased were "electronics" and "clothing" by male, and "home" and "clothing" by female. The "clothing" category being one of the most purchase category were align with product "shirt" as in top 5 most purchased product.
 
-     ![screenshot on mysql gender distribution by category](image/ss_gender_dist_purchase.png)
+     <img width="971" height="443" alt="image" src="https://github.com/user-attachments/assets/5e655c99-58dc-4344-bc7f-598b5577adb3" />
+
 
 
    - The most average purchase frequency by category were "clothing" and "sports" as both of them leading in top 10 most purchase category.
