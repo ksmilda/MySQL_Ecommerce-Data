@@ -62,13 +62,18 @@ This exploration provides the first set of insights into customer behavior and b
 
 
 4. Average order value (AOV)
-   - The Average order value (AOV) for every country means on average each transaction contributes as number below in revenue. Countries like India and Pakistan show higher AOVs, while the UK has a lower AOV.
+   - The Average order value (AOV) means on average each transaction contributes as number below in revenue.
+
+      <img width="734" height="227" alt="image" src="https://github.com/user-attachments/assets/a3992f95-3363-4049-ac7c-593e11a37a19" />
+
+
+   - The AOV for every country means on average each transaction contributes as number below in revenue. Countries like India and Pakistan show higher AOVs, while the UK has lower AOV.
 
 
      <img width="1505" height="405" alt="image" src="https://github.com/user-attachments/assets/8eb77e23-8bf8-44cc-a58c-257d78bad04e" />
 
 
-5. Customers demographic
+4. Customers demographic
    - The number of customers based on subscription status showed most of the customers were "active".
 
      ![screenshot on mysql for total customers](image/ss_number_cust.png)
@@ -95,7 +100,7 @@ This exploration provides the first set of insights into customer behavior and b
 
 
 
-6. Churn rate (and every country's)
+5. Churn rate (and every country's)
    - The churn rate incredibly declined from 37% in 2020 to 22% in 2022 indicating some improvement in customer experience. However, the churn rate start to increased in 2023, suggesting that retention efforts weakened as the customer base grew. 
 
 
@@ -108,7 +113,7 @@ This exploration provides the first set of insights into customer behavior and b
      ![screenshot on mysql for churn rate each country](image/ss_churn_rate_country.png)
 
 
-7. Product and Category
+6. Product and Category
    - Top 5 product based on revenue.
 
      ![screenshot on mysql for top 5 revenue product](image/ss_top_revenue_product.png)
