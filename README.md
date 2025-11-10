@@ -127,7 +127,8 @@ This exploration provides the first set of insights into customer behavior and b
 
    - The most average purchase frequency by category were "clothing" and "sports" as both of them leading in top 10 most purchase category.
 
-     <img width="926" height="480" alt="image" src="https://github.com/user-attachments/assets/e65534e5-fdfe-481b-ae08-87d22b53d13a" />
+     <img width="822" height="318" alt="image" src="https://github.com/user-attachments/assets/fb02c28a-3d12-44fc-be41-88cb05474ddd" />
+
 
 
 
