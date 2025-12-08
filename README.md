@@ -1,6 +1,11 @@
 # MySQL_Ecommerce-Data
 This is ksmilda's portfolio: Data cleaning and data exploration using MySQL.
 
+[A more polished, presentation-style version is available [here]
+(https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/807536c9303d758ef5d552502ac0d98994bb5692/Ecommerce-Data-Exploration-(1)_compressed.pdf).]
+
+
+
 ## Project Background 
 With this project, I'm analyzes an open dataset obtained from [Kaggle](https://www.kaggle.com/datasets/nabihazahid/e-commerce-customer-insights-and-churn-dataset/data), which contains simulated e-commerce transactions. The dataset includes customer information, order details, product categories, sales values, and other related attributes. Although the dataset does not represent a specific company, it serves as a realistic sample to demonstrate data exploration, KPI tracking, and dashboard building.
 
