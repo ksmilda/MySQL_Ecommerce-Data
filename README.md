@@ -1,8 +1,7 @@
 # MySQL_Ecommerce-Data
 This is ksmilda's portfolio: Data cleaning and data exploration using MySQL.
 
-[A more polished, presentation-style version is available [here]
-(https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/807536c9303d758ef5d552502ac0d98994bb5692/Ecommerce-Data-Exploration-(1)_compressed.pdf).]
+[A more polished, presentation-style version is available [here](https://github.com/ksmilda/MySQL_Ecommerce-Data/blob/807536c9303d758ef5d552502ac0d98994bb5692/Ecommerce-Data-Exploration-(1)_compressed.pdf).]
 
 
 
